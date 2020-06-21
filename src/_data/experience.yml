@@ -1,0 +1,34 @@
+# Experience template
+- company: BookBub
+  company_logo: /assets/images/bookbub_logo.png
+  link: Link to company (optional)
+  job_title: Software Engineering Co-op
+  dates: July 2019 - December 2019, May 2020 - September 2020
+  quote: >
+   Based in Cambridge, MA, BookBub is a free service that helps millions of readers discover books they'll love while providing publishers and authors with a way to drive sales and find new fans.
+  description: | # this will include new lines to allow paragraphs
+    - Using a **React**, **GraphQL**, and **Ruby on Rails** stack, implemented a number of key features improving the audiobooks experience, including user reviews, shopping cart checkout, and library organization.
+    - Added a dynamic “Deals Expiring Soon” section to the recurring Audiobooks Daily Deals email, helping to drive 5000 more purchases per 1 million opens.
+    - Optimized GraphQL API performance to improve response times by more than 30%.
+- company: Renoviso
+  company_logo: /assets/images/renoviso_logo.png
+  link: Link to company (optional)
+  job_title: Full Stack Software Engineer Co-op
+  dates: July 2018 - December 2018
+  quote: >
+   Based in Boston, MA, Renoviso helped revolutionize home renovation by enabling consumers to seamlessly build project quotes online with fully transparent pricing, tech-enabled project management, and award-winning customer service.
+  description: | # this will include new lines to allow paragraphs
+    - Continuously deployed new features using an isomorphic Javascript stack utilizing **React**, **Redux**, **Node.js**, **Express**, and **PostgreSQL**.
+    - Overhauled front-end architecture and implemented modern, responsive pages for an e-commerce site with more than $1 million in monthly revenue.
+    - Migrated existing REST-ful APIs to use **GraphQL**.
+- company: PowerAdvocate
+  company_logo: /assets/images/poweradvocate_logo.jpg
+  link: Link to company (optional)
+  job_title: Web Developer Co-op
+  dates: July 2017 - December 2017
+  quote: >
+   Based in Boston, MA, PowerAdvocate is an industry-leading provider of market, cost intelligence, and supply chain solutions serving the energy sector.
+  description: | # this will include new lines to allow paragraphs
+    - Engineered a complete rewrite of a major user feature using **ES6 JavaScript** and **Spring MVC**.
+    - Contributed performance enhancements and bug fixes for gridster.js, an open-source **jQuery** plugin for creating intuitive drag-and-drop user interfaces.
+    - Used **Jenkins** to automate a comprehensive **Selenium** and **JUnit** test-suite.

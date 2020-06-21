@@ -1,0 +1,9 @@
+# Education Template
+- name: Northeastern University
+  school_logo: /assets/images/northeastern_logo.jpg
+  dates: 2015 - 2020
+  qualification: Qualifications (eg. BA Performing Arts)
+  quote: >
+    Founded in 1898, Northeastern is a global, experiential, research university built on a tradition of engagement with the world, creating a distinctive approach to education and research.
+  description: | # this will include new lines to allow paragraphs
+    Bachelor of Science in Computer Science

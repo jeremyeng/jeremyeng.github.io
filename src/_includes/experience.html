@@ -1,0 +1,23 @@
+<section class="section pt-0">
+  <div class="container">
+    <h3 class="title">{{ site.experience_title | default: "Experience" }}</h3>
+    {% for experience in site.data.experience %}
+      <div class="box">
+        <div class="ml-0 mb-0" style="display: flex;align-items: center;">
+          <h4 class="is-size-4 has-text-weight-semibold">{{ experience.company }}</h4>
+          <figure class="image is-24x24 ml-2">
+            <img class="" style="max-width:24px;" src="{{ experience.company_logo }}" alt=""">
+          </figure>
+        </div>
+        <h5 class="is-size-6 has-text-weight-medium">{{ experience.job_title }}</h4>
+        <span class="tag is-info is-light mt-1">
+          {{ experience.dates }}
+        </span>
+        <h5 class="is-size-6 is-italic mb-3 mt-2">{{ experience.quote }}</h4>
+        <div class="content">
+          {{ experience.description | strip | markdownify }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
